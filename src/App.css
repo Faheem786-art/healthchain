@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 16vh;
+  background-color: #000000;
+  position: fixed;
+  height: 100%;
+  
+  overflow: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li{
+  display: flex;
+  background-color: rgb(114, 38, 177) ;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  width: 90%;
+  height: 60px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+li a {
+  display: block;
+  color: rgb(240, 237, 237);
+  padding: 8px 8px;
+  text-decoration: none;
+
+  
+}
+
+
+
+li a:hover {
+  background-color: #555;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 5px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+  
+}
+h1 {
+  letter-spacing: 1.5vw;
+  font-family: "system-ui";
+  text-transform: uppercase;
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(236, 232, 232), rgb(114, 38, 177));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
